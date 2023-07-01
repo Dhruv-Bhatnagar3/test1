@@ -98,7 +98,7 @@ twitch_miner.mine(
         Streamer("Valorant"),
         Streamer("actualuber"),
         Streamer("tarik"),
-        Streamer("curry", settings=StreamerSettings(make_predictions=True  , follow_raid=True  , claim_drops=True ,  watch_streak=True , bet=BetSettings(strategy=Strategy.HIGH_ODDS  , percentage=17 , stealth_mode=True,  percentage_gap=20 , max_points=50000    , filter_condition=FilterCondition(by=OutcomeKeys.TOTAL_USERS, where=Condition.LTE, value=999999 ) ) )),
+        Streamer("curry", settings=StreamerSettings(make_predictions=True  , follow_raid=True  , claim_drops=True ,  watch_streak=True , bet=BetSettings(strategy=Strategy.HIGH_ODDS  , percentage=17 , stealth_mode=True,  percentage_gap=20 , max_points=5000    , filter_condition=FilterCondition(by=OutcomeKeys.TOTAL_USERS, where=Condition.LTE, value=999999 ) ) )),
         Streamer("AstralSpiff"),
         Streamer("sinatraa"),
         Streamer("subroza"),
